@@ -6,3 +6,7 @@ class Product:
         self.price = price
         self.quantity = quantity
 
+    @classmethod
+    def new_product(cls, product: dict):
+        name, description, price, quantity = product.values()
+        return cls(name, description, price, quantity)
