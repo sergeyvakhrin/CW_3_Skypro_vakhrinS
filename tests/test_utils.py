@@ -1,4 +1,4 @@
-from src.utils import get_category_list
+from src.utils import get_category_list, load_data
 
 
 def test_get_category_list(data_json):
