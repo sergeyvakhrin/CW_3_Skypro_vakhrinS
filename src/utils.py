@@ -16,7 +16,7 @@ def get_category_list(data) -> list:
     for category in data:
         products = []
         for product in category["products"]:
-            products.append(Product(**product))
+            products.append(Product.new_product(product))
         category["products"] = products
         categories.append(Category(**category))
     return categories
