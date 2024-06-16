@@ -1,5 +1,5 @@
 class Category:
-    """"""
+    """ Класс категорий товаров """
     product_count = 0
     category_count = 0
 
