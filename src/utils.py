@@ -22,7 +22,3 @@ def get_category_list(data) -> list:
     return categories
 
 
-
-
-
-
